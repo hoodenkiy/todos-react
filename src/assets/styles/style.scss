@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/functions";
+@import './custom.scss';
+@import '~bootstrap/scss/bootstrap';
+
+.todos {
+	.link-style {
+		color: $primary;
+		border-bottom: 1px dashed #0088cc;
+
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
